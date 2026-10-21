@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata: {name: heart-api-config, namespace: heart-mlops}
+data:
+  LOG_LEVEL: "INFO"
+  LOG_FEATURES: "false"   # never log raw patient features unless explicitly enabled
+  MODEL_PATH: "/app/models/model.joblib"

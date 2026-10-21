@@ -1,0 +1,121 @@
+{
+  "data_source": "UCI processed.cleveland.data via HTTPS",
+  "n_rows": 303,
+  "n_features": 13,
+  "class_counts": {
+    "0": 164,
+    "1": 139
+  },
+  "positive_rate": 0.4587,
+  "missing": {
+    "ca": 4,
+    "thal": 2
+  },
+  "male_share": 0.6799,
+  "target_correlation": {
+    "thal": 0.526,
+    "ca": 0.46,
+    "exang": 0.432,
+    "oldpeak": 0.425,
+    "cp": 0.414,
+    "slope": 0.339,
+    "sex": 0.277,
+    "age": 0.223,
+    "restecg": 0.169,
+    "trestbps": 0.151,
+    "chol": 0.085,
+    "fbs": 0.025,
+    "thalach": -0.417
+  },
+  "numeric_describe": [
+    {
+      "feature": "age",
+      "count": 303.0,
+      "mean": 54.44,
+      "std": 9.04,
+      "min": 29.0,
+      "25%": 48.0,
+      "50%": 56.0,
+      "75%": 61.0,
+      "max": 77.0
+    },
+    {
+      "feature": "trestbps",
+      "count": 303.0,
+      "mean": 131.69,
+      "std": 17.6,
+      "min": 94.0,
+      "25%": 120.0,
+      "50%": 130.0,
+      "75%": 140.0,
+      "max": 200.0
+    },
+    {
+      "feature": "chol",
+      "count": 303.0,
+      "mean": 246.69,
+      "std": 51.78,
+      "min": 126.0,
+      "25%": 211.0,
+      "50%": 241.0,
+      "75%": 275.0,
+      "max": 564.0
+    },
+    {
+      "feature": "thalach",
+      "count": 303.0,
+      "mean": 149.61,
+      "std": 22.88,
+      "min": 71.0,
+      "25%": 133.5,
+      "50%": 153.0,
+      "75%": 166.0,
+      "max": 202.0
+    },
+    {
+      "feature": "oldpeak",
+      "count": 303.0,
+      "mean": 1.04,
+      "std": 1.16,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.8,
+      "75%": 1.6,
+      "max": 6.2
+    },
+    {
+      "feature": "ca",
+      "count": 299.0,
+      "mean": 0.67,
+      "std": 0.94,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 1.0,
+      "max": 3.0
+    }
+  ],
+  "disease_rate_by_cp": {
+    "1": 0.304,
+    "2": 0.18,
+    "3": 0.209,
+    "4": 0.729
+  },
+  "disease_rate_by_sex": {
+    "0": 0.258,
+    "1": 0.553
+  },
+  "disease_rate_by_exang": {
+    "0": 0.309,
+    "1": 0.768
+  },
+  "figures": {
+    "class_balance": "reports\\figures\\eda_class_balance.png",
+    "missing_values": "reports\\figures\\eda_missing_values.png",
+    "numeric_histograms": "reports\\figures\\eda_numeric_histograms.png",
+    "categorical_counts": "reports\\figures\\eda_categorical_counts.png",
+    "boxplots": "reports\\figures\\eda_boxplots.png",
+    "correlation_heatmap": "reports\\figures\\eda_correlation_heatmap.png",
+    "target_correlation": "reports\\figures\\eda_target_correlation.png"
+  }
+}

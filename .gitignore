@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+.ipynb_checkpoints/
+mlruns/
+mlruns_local/
+mlartifacts/
+logs/
+.DS_Store
+.env

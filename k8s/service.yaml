@@ -1,0 +1,17 @@
+# Public entry point (cloud: provisions a load balancer; Minikube: `minikube tunnel`).
+apiVersion: v1
+kind: Service
+metadata: {name: heart-api, namespace: heart-mlops, labels: {app: heart-api}}
+spec:
+  type: LoadBalancer
+  selector: {app: heart-api}
+  ports: [{name: http, port: 80, targetPort: http}]
+---
+# Headless service: lets Prometheus discover and scrape EVERY pod.
+apiVersion: v1
+kind: Service
+metadata: {name: heart-api-headless, namespace: heart-mlops, labels: {app: heart-api}}
+spec:
+  clusterIP: None
+  selector: {app: heart-api}
+  ports: [{name: http, port: 8000, targetPort: http}]

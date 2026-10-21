@@ -1,0 +1,106 @@
+{
+  "model_name": "logistic_regression",
+  "model_version": "1.0.0-20261020185208",
+  "trained_at_utc": "2026-10-20T13:22:08Z",
+  "trained_on": "all rows (hyper-parameters chosen by CV on the training split)",
+  "n_rows": 303,
+  "features": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "engineered_features": [
+    "hr_reserve_ratio",
+    "chol_per_age",
+    "high_bp"
+  ],
+  "transformed_feature_names": [
+    "age",
+    "trestbps",
+    "chol",
+    "thalach",
+    "oldpeak",
+    "ca",
+    "hr_reserve_ratio",
+    "chol_per_age",
+    "sex_0.0",
+    "sex_1.0",
+    "cp_1.0",
+    "cp_2.0",
+    "cp_3.0",
+    "cp_4.0",
+    "fbs_0.0",
+    "fbs_1.0",
+    "restecg_0.0",
+    "restecg_1.0",
+    "restecg_2.0",
+    "exang_0.0",
+    "exang_1.0",
+    "slope_1.0",
+    "slope_2.0",
+    "slope_3.0",
+    "thal_3.0",
+    "thal_6.0",
+    "thal_7.0",
+    "high_bp_0.0",
+    "high_bp_1.0"
+  ],
+  "best_params": {
+    "C": 0.1,
+    "class_weight": "balanced"
+  },
+  "holdout_metrics": {
+    "accuracy": 0.8852459016393442,
+    "precision": 0.8387096774193549,
+    "recall": 0.9285714285714286,
+    "specificity": 0.8484848484848485,
+    "f1": 0.8813559322033898,
+    "roc_auc": 0.95995670995671,
+    "avg_precision": 0.943399511833292,
+    "brier": 0.09088266095956546,
+    "tn": 28,
+    "fp": 5,
+    "fn": 2,
+    "tp": 26
+  },
+  "cv_metrics": {
+    "accuracy": {
+      "mean": 0.8289965986394559,
+      "std": 0.05590648511556392
+    },
+    "precision": {
+      "mean": 0.8348418883430325,
+      "std": 0.077073675495595
+    },
+    "recall": {
+      "mean": 0.7865612648221344,
+      "std": 0.07304236605761394
+    },
+    "f1": {
+      "mean": 0.8080468774938429,
+      "std": 0.06393142615912074
+    },
+    "roc_auc": {
+      "mean": 0.8954712490944375,
+      "std": 0.04078953505850425
+    }
+  },
+  "decision_threshold": 0.5,
+  "data_source": "UCI processed.cleveland.data via HTTPS",
+  "data_sha256": "22e12756ee58fc33015f0439de96acca9244c426374ee3086f87066d7c83eed7",
+  "sklearn_version": "1.9.1",
+  "python_version": "3.13.14",
+  "numpy_version": "2.5.3",
+  "pandas_version": "3.0.5",
+  "git_sha": "unknown"
+}

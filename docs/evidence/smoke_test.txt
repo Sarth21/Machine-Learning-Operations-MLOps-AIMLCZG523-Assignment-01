@@ -1,0 +1,7 @@
+[PASS] GET /health {"status":"ok"}
+[PASS] GET /ready 
+[PASS] POST /predict (valid) {"prediction":1,"label":"heart disease predicted","probability_disease":0.7486,"confidence":0.7486,"model_version":"1.0.0-20261020052850","request_id":"c6c2cf12acb4"}
+[PASS] POST /predict (invalid -> 422) 
+[PASS] POST /predict (batch) 
+[PASS] GET /metrics 
+All smoke tests passed.

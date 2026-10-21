@@ -1,0 +1,8 @@
+# Runtime deps for the serving container. sklearn/numpy/pandas/joblib MUST match the training versions (trained with Python 3.13).
+Flask==3.1.3
+gunicorn>=22.0,<24
+scikit-learn==1.9.1
+numpy==2.5.3
+pandas==3.0.5
+scipy==1.18.1
+joblib==1.6.0

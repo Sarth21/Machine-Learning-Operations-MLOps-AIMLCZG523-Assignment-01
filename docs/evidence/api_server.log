@@ -1,0 +1,386 @@
+{"ts": "2026-10-20T05:32:38.541Z", "level": "INFO", "logger": "heart-api", "msg": "model loaded", "model_path": "/mnt/attach/outputs/heart-disease-mlops/models/model.joblib", "model_version": "1.0.0-20261020052850"}
+ * Serving Flask app 'main'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.0.2.2:8000
+Press CTRL+C to quit
+{"ts": "2026-10-20T05:32:40.282Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "90f8135bc56e", "method": "GET", "path": "/health", "status": 200, "latency_ms": 0.22, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:40] "GET /health HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:40.285Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "ac4dcbbbb4bf", "method": "GET", "path": "/health", "status": 200, "latency_ms": 0.13, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:40] "GET /health HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:40.288Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "9df6c2d24573", "method": "GET", "path": "/ready", "status": 200, "latency_ms": 0.13, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:40] "GET /ready HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:40.330Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "c6c2cf12acb4", "prediction": 1, "confidence": 0.7486, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:40.330Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "c6c2cf12acb4", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 40.5, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:40] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:40.333Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "d9a5debd1a83", "method": "POST", "path": "/predict", "status": 422, "latency_ms": 0.28, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:40] "POST /predict HTTP/1.1" 422 -
+{"ts": "2026-10-20T05:32:40.346Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "ae935567ae1a", "prediction": 1, "confidence": 0.7486, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:40.346Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "ae935567ae1a", "prediction": 1, "confidence": 0.7486, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:40.346Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "ae935567ae1a", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 10.62, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:40] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 05:32:40] "GET /metrics HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:40.396Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "edf95c4d3963", "prediction": 1, "confidence": 0.7486, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:40.396Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "edf95c4d3963", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.74, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:40] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:40.427Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "1ce766aa5aee", "method": "POST", "path": "/predict", "status": 422, "latency_ms": 0.36, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:40] "POST /predict HTTP/1.1" 422 -
+{"ts": "2026-10-20T05:32:40.524Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "9508b481cf2f", "prediction": 1, "confidence": 0.9523, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:40.525Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "9508b481cf2f", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 14.69, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:40] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:40.555Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "da985a823787", "prediction": 1, "confidence": 0.9995, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:40.556Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "da985a823787", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 10.92, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:40] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:40.585Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "98e0f21deecc", "prediction": 1, "confidence": 1.0, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:40.586Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "98e0f21deecc", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.83, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:40] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:40.617Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "5728cdafabfb", "prediction": 1, "confidence": 0.9981, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:40.618Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "5728cdafabfb", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 12.82, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:40] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:40.648Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "6f91618db428", "prediction": 1, "confidence": 0.9999, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:40.648Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "6f91618db428", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 10.0, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:40] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:40.668Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "019d1917ca4e", "method": "POST", "path": "/predict", "status": 422, "latency_ms": 0.32, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:40] "POST /predict HTTP/1.1" 422 -
+{"ts": "2026-10-20T05:32:40.699Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "fefd60555635", "prediction": 1, "confidence": 0.7855, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:40.700Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "fefd60555635", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 11.25, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:40] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:40.738Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "9be1675cc677", "prediction": 0, "confidence": 0.6851, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:40.739Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "9be1675cc677", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 19.29, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:40] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:40.773Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "1b4f891bd751", "prediction": 1, "confidence": 0.775, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:40.775Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "1b4f891bd751", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 15.55, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:40] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:40.805Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "80cc0d7d6a18", "prediction": 0, "confidence": 0.6895, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:40.805Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "80cc0d7d6a18", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 11.17, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:40] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:40.834Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "05c36b30c9b9", "prediction": 0, "confidence": 0.8572, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:40.835Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "05c36b30c9b9", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.63, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:40] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:40.869Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "df96329df27a", "prediction": 1, "confidence": 1.0, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:40.870Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "df96329df27a", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 14.29, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:40] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:40.899Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "afa8d6ff26ef", "prediction": 1, "confidence": 0.9988, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:40.899Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "afa8d6ff26ef", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.38, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:40] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:40.928Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "c2a757a3b288", "prediction": 1, "confidence": 0.8156, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:40.928Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "c2a757a3b288", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.17, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:40] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:40.957Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "6e897931aa26", "prediction": 0, "confidence": 0.9426, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:40.957Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "6e897931aa26", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.09, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:40] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:40.989Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "aaba166f60f0", "prediction": 1, "confidence": 0.9989, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:40.990Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "aaba166f60f0", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 11.9, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:40] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:41.036Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "f618d7303136", "prediction": 1, "confidence": 0.8759, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:41.037Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "f618d7303136", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 26.6, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:41] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:41.067Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "d32f3b348aed", "prediction": 1, "confidence": 1.0, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:41.067Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "d32f3b348aed", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 10.57, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:41] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:41.096Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "80659f8c41dd", "prediction": 1, "confidence": 1.0, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:41.097Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "80659f8c41dd", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.39, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:41] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:41.129Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "9e896a6be35c", "prediction": 0, "confidence": 0.8416, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:41.130Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "9e896a6be35c", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 12.99, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:41] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:41.160Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "a0677e050d54", "prediction": 1, "confidence": 0.6464, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:41.161Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "a0677e050d54", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 11.02, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:41] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:41.190Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "65c6f9600b13", "prediction": 0, "confidence": 0.9912, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:41.191Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "65c6f9600b13", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 10.17, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:41] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:41.221Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "d2a0d2d4e0cf", "prediction": 1, "confidence": 1.0, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:41.221Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "d2a0d2d4e0cf", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.66, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:41] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:41.254Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "9fce8906a4f8", "prediction": 1, "confidence": 0.9958, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:41.255Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "9fce8906a4f8", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 13.29, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:41] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:41.287Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "b404fcce9540", "prediction": 1, "confidence": 0.9757, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:41.287Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "b404fcce9540", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 10.4, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:41] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:41.318Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "7172fcd756da", "prediction": 1, "confidence": 0.9912, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:41.318Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "7172fcd756da", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 11.38, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:41] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:41.352Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "055bb2824310", "prediction": 0, "confidence": 0.6314, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:41.352Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "055bb2824310", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 12.86, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:41] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:41.382Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "72d266cba2c0", "prediction": 1, "confidence": 0.9997, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:41.383Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "72d266cba2c0", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 10.7, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:41] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:41.429Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "e21cbbef8932", "prediction": 1, "confidence": 0.8971, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:41.430Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "e21cbbef8932", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 25.43, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:41] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:41.530Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "04a6ee5237d5", "prediction": 0, "confidence": 0.9755, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:41.531Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "04a6ee5237d5", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 79.78, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:41] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:41.573Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "61575ac0077e", "prediction": 1, "confidence": 0.999, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:41.573Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "61575ac0077e", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 21.39, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:41] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:41.602Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "7afaa47f9800", "prediction": 1, "confidence": 0.9999, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:41.602Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "7afaa47f9800", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.29, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:41] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:41.631Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "71025a8d93d5", "prediction": 1, "confidence": 1.0, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:41.632Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "71025a8d93d5", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.42, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:41] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:41.660Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "f4071bcf7065", "prediction": 1, "confidence": 0.9956, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:41.661Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "f4071bcf7065", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.53, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:41] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:41.688Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "4352ba8f971a", "prediction": 1, "confidence": 0.9999, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:41.689Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "4352ba8f971a", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.0, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:41] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:41.717Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "6e625c495d99", "prediction": 1, "confidence": 0.9838, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:41.717Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "6e625c495d99", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 8.83, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:41] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:41.746Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "c8259b0d5d44", "prediction": 1, "confidence": 1.0, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:41.747Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "c8259b0d5d44", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.49, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:41] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:41.780Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "852f9ebbd434", "prediction": 1, "confidence": 1.0, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:41.781Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "852f9ebbd434", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 13.94, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:41] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:41.809Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "677a902bfef0", "prediction": 1, "confidence": 0.9999, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:41.810Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "677a902bfef0", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.96, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:41] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:41.845Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "276ba3215b3e", "prediction": 1, "confidence": 0.9381, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:41.848Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "276ba3215b3e", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 17.36, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:41] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:41.877Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "e98755955639", "prediction": 1, "confidence": 1.0, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:41.878Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "e98755955639", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.29, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:41] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:41.911Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "0bd7a8355b96", "prediction": 1, "confidence": 0.9998, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:41.912Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "0bd7a8355b96", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 14.17, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:41] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:41.941Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "faa4e2281086", "prediction": 1, "confidence": 1.0, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:41.945Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "faa4e2281086", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 12.9, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:41] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:41.980Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "b3f3c86229c2", "prediction": 1, "confidence": 0.9994, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:41.981Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "b3f3c86229c2", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 14.49, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:41] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:42.011Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "873b9fba0979", "prediction": 1, "confidence": 1.0, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:42.012Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "873b9fba0979", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.3, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:42] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:42.041Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "f6192eb32be8", "prediction": 1, "confidence": 0.9999, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:42.041Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "f6192eb32be8", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.33, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:42] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:42.072Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "18161e513cd6", "prediction": 1, "confidence": 0.9999, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:42.072Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "18161e513cd6", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 10.79, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:42] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:42.102Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "efac1c62cc0e", "prediction": 0, "confidence": 0.9533, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:42.103Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "efac1c62cc0e", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 10.44, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:42] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:42.133Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "41cc7be3bdd2", "prediction": 1, "confidence": 1.0, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:42.133Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "41cc7be3bdd2", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 10.84, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:42] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:42.166Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "02d0bc7654b7", "prediction": 0, "confidence": 0.9922, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:42.167Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "02d0bc7654b7", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 14.37, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:42] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:42.187Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "60610e436c94", "method": "POST", "path": "/predict", "status": 422, "latency_ms": 0.43, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:42] "POST /predict HTTP/1.1" 422 -
+{"ts": "2026-10-20T05:32:42.223Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "efcaad1ca5db", "prediction": 1, "confidence": 1.0, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:42.224Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "efcaad1ca5db", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 16.15, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:42] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:42.253Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "1e2f9e9b6c48", "prediction": 1, "confidence": 0.9957, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:42.254Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "1e2f9e9b6c48", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 10.4, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:42] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:42.283Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "a2c703c7db17", "prediction": 1, "confidence": 0.7837, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:42.285Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "a2c703c7db17", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 11.22, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:42] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:42.314Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "8cc121897adf", "prediction": 1, "confidence": 0.9947, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:42.315Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "8cc121897adf", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.54, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:42] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:42.344Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "51db158185cf", "prediction": 0, "confidence": 0.5881, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:42.345Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "51db158185cf", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 10.91, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:42] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:42.377Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "50ad971e3fa7", "prediction": 1, "confidence": 0.9994, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:42.377Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "50ad971e3fa7", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 11.91, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:42] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:42.407Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "d3a49fca4bc0", "prediction": 1, "confidence": 0.6839, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:42.407Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "d3a49fca4bc0", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 10.94, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:42] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:42.437Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "6c9ba776590b", "prediction": 1, "confidence": 0.9556, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:42.438Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "6c9ba776590b", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 10.12, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:42] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:42.467Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "8ee8397af849", "prediction": 1, "confidence": 0.9999, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:42.468Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "8ee8397af849", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 11.08, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:42] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:42.497Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "528f9c7b1a0c", "prediction": 1, "confidence": 0.9986, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:42.498Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "528f9c7b1a0c", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.73, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:42] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:42.527Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "9d263f0bd4b4", "prediction": 1, "confidence": 0.9889, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:42.528Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "9d263f0bd4b4", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 10.43, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:42] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:42.557Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "50bb52ee6a3b", "prediction": 1, "confidence": 0.9948, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:42.558Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "50bb52ee6a3b", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 10.24, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:42] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:42.587Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "f52051d8a15e", "prediction": 1, "confidence": 0.9934, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:42.587Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "f52051d8a15e", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.87, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:42] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:42.617Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "60af07c7d2ee", "prediction": 1, "confidence": 0.9989, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:42.618Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "60af07c7d2ee", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 10.78, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:42] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:42.647Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "c5e55560c35e", "prediction": 1, "confidence": 0.9995, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:42.648Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "c5e55560c35e", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 10.14, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:42] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:42.679Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "f5f0e2067cb8", "prediction": 1, "confidence": 0.6405, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:42.679Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "f5f0e2067cb8", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 11.84, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:42] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:42.708Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "3250bbd815f3", "prediction": 1, "confidence": 1.0, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:42.709Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "3250bbd815f3", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.14, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:42] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:42.737Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "aa1d984cc8ac", "prediction": 0, "confidence": 0.5762, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:42.738Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "aa1d984cc8ac", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 10.19, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:42] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:42.767Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "0a6295ea4fb0", "prediction": 1, "confidence": 1.0, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:42.768Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "0a6295ea4fb0", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 10.24, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:42] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:42.797Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "c52a9cf3ccff", "prediction": 1, "confidence": 0.9798, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:42.797Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "c52a9cf3ccff", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 10.46, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:42] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:42.828Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "330f162c14d1", "prediction": 1, "confidence": 1.0, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:42.829Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "330f162c14d1", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 11.65, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:42] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:42.857Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "1ee8733e4d43", "prediction": 1, "confidence": 1.0, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:42.858Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "1ee8733e4d43", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.01, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:42] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:42.887Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "80daabab0a34", "prediction": 1, "confidence": 1.0, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:42.888Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "80daabab0a34", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 10.01, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:42] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:42.916Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "0cace335511b", "prediction": 1, "confidence": 1.0, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:42.917Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "0cace335511b", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.27, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:42] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:42.945Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "a4f4a10af33f", "prediction": 0, "confidence": 0.9492, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:42.945Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "a4f4a10af33f", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.14, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:42] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:42.974Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "86bdbeafff1f", "prediction": 1, "confidence": 1.0, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:42.974Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "86bdbeafff1f", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.74, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:42] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:43.003Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "b4e36fd6c3dc", "prediction": 1, "confidence": 1.0, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:43.003Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "b4e36fd6c3dc", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.17, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:43] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:43.036Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "cdd606b03a96", "prediction": 1, "confidence": 1.0, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:43.037Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "cdd606b03a96", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 13.24, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:43] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:43.071Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "ac7d34f00268", "prediction": 0, "confidence": 0.9769, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:43.071Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "ac7d34f00268", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 14.69, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:43] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:43.103Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "dfa426d6006e", "prediction": 1, "confidence": 1.0, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:43.104Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "dfa426d6006e", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 12.62, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:43] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:43.138Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "df01b57d050f", "prediction": 1, "confidence": 0.9993, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:43.138Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "df01b57d050f", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 14.31, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:43] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:43.171Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "c7563e5c6f60", "prediction": 1, "confidence": 1.0, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:43.171Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "c7563e5c6f60", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 12.91, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:43] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:43.207Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "1cc0dba7d027", "prediction": 1, "confidence": 1.0, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:43.208Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "1cc0dba7d027", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 16.71, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:43] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:43.240Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "c824a7c49faf", "prediction": 0, "confidence": 0.6463, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:43.241Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "c824a7c49faf", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 12.44, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:43] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:43.272Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "c895885f6137", "prediction": 1, "confidence": 0.6127, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:43.273Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "c895885f6137", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 12.02, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:43] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:43.303Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "7de3df84571e", "prediction": 1, "confidence": 1.0, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:43.304Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "7de3df84571e", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 11.15, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:43] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:43.333Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "5367122bdf92", "prediction": 1, "confidence": 1.0, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:43.334Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "5367122bdf92", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.65, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:43] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:43.363Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "bcf4258e237f", "prediction": 1, "confidence": 0.8682, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:43.363Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "bcf4258e237f", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.83, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:43] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:43.395Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "d992a19b4a16", "prediction": 0, "confidence": 0.9264, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:43.396Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "d992a19b4a16", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 13.09, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:43] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:43.425Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "215cb0137f67", "prediction": 0, "confidence": 0.9987, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:43.426Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "215cb0137f67", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.36, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:43] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:43.455Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "2cf91316a72a", "prediction": 1, "confidence": 1.0, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:43.456Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "2cf91316a72a", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 10.14, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:43] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:43.484Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "ff47a6dbdd99", "prediction": 1, "confidence": 1.0, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:43.485Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "ff47a6dbdd99", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.36, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:43] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:43.513Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "e4c2b0d74d88", "prediction": 0, "confidence": 0.9342, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:43.514Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "e4c2b0d74d88", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.37, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:43] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:43.542Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "41b2e72dab1e", "prediction": 1, "confidence": 0.995, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:43.543Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "41b2e72dab1e", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.28, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:43] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:43.574Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "73f7ea9bf529", "prediction": 1, "confidence": 0.9637, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:43.574Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "73f7ea9bf529", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 11.61, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:43] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:43.594Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "04e8ebf75575", "method": "POST", "path": "/predict", "status": 422, "latency_ms": 0.31, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:43] "POST /predict HTTP/1.1" 422 -
+{"ts": "2026-10-20T05:32:43.623Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "f7e521c06799", "prediction": 0, "confidence": 0.8454, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:43.624Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "f7e521c06799", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.49, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:43] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:43.654Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "05c8342a34ec", "prediction": 1, "confidence": 0.8129, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:43.655Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "05c8342a34ec", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 10.72, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:43] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:43.683Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "5bd400a153d2", "prediction": 0, "confidence": 0.9868, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:43.684Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "5bd400a153d2", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.56, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:43] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:43.714Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "917ad237fc68", "prediction": 0, "confidence": 0.741, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:43.714Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "917ad237fc68", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.83, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:43] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:43.747Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "11c154895c28", "prediction": 1, "confidence": 1.0, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:43.747Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "11c154895c28", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 11.02, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:43] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:43.776Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "796a5d62cd8a", "prediction": 1, "confidence": 0.9943, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:43.776Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "796a5d62cd8a", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.52, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:43] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:43.806Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "c6464fe95354", "prediction": 1, "confidence": 0.9986, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:43.806Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "c6464fe95354", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.8, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:43] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:43.835Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "f25a20be8bdf", "prediction": 1, "confidence": 0.9998, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:43.836Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "f25a20be8bdf", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 10.11, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:43] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:43.865Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "e879035ce73a", "prediction": 0, "confidence": 0.9997, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:43.866Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "e879035ce73a", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.53, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:43] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:43.894Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "cead1d81be75", "prediction": 0, "confidence": 0.5263, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:43.894Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "cead1d81be75", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.05, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:43] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:43.924Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "552d8680b612", "prediction": 1, "confidence": 0.5969, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:43.924Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "552d8680b612", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.71, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:43] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:43.956Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "f5cdf5ebf9c1", "prediction": 1, "confidence": 1.0, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:43.957Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "f5cdf5ebf9c1", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 12.9, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:43] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:43.989Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "4a1e88f1a3ae", "prediction": 1, "confidence": 1.0, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:43.990Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "4a1e88f1a3ae", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 12.75, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:43] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:44.019Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "83f2042be38a", "prediction": 1, "confidence": 0.9997, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:44.020Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "83f2042be38a", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 10.21, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:44] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:44.048Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "48d6c7df603c", "prediction": 1, "confidence": 0.9871, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:44.049Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "48d6c7df603c", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.29, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:44] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:44.080Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "dd2103bdab32", "prediction": 1, "confidence": 0.9064, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:44.080Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "dd2103bdab32", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 11.49, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:44] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:44.109Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "4267662fd401", "prediction": 0, "confidence": 0.9762, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:44.110Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "4267662fd401", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 10.06, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:44] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:44.139Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "2df3f777d577", "prediction": 0, "confidence": 0.5511, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:44.140Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "2df3f777d577", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.99, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:44] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:44.168Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "290c1a3f04bb", "prediction": 1, "confidence": 0.9986, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:44.169Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "290c1a3f04bb", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 9.98, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:44] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:44.189Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "7c13b2c42e45", "method": "POST", "path": "/predict", "status": 422, "latency_ms": 0.27, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:44] "POST /predict HTTP/1.1" 422 -
+{"ts": "2026-10-20T05:32:44.221Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "b86c5e28fff9", "prediction": 1, "confidence": 0.7999, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:44.222Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "b86c5e28fff9", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 13.02, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:44] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:44.252Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "ad07040835c1", "prediction": 1, "confidence": 0.9997, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:44.253Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "ad07040835c1", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 11.15, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:44] "POST /predict HTTP/1.1" 200 -
+{"ts": "2026-10-20T05:32:44.285Z", "level": "INFO", "logger": "heart-api", "msg": "prediction", "request_id": "c03072d10bff", "prediction": 1, "confidence": 0.9995, "model_version": "1.0.0-20261020052850"}
+{"ts": "2026-10-20T05:32:44.285Z", "level": "INFO", "logger": "heart-api", "msg": "request", "request_id": "c03072d10bff", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 12.34, "remote_addr": "127.0.0.1"}
+127.0.0.1 - - [20/Oct/2026 05:32:44] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 05:32:44] "GET /metrics HTTP/1.1" 200 -
