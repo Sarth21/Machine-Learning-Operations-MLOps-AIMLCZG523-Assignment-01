@@ -17,6 +17,9 @@ from heartml import config as C
 
 log = logging.getLogger(__name__)
 
+# Newer MLflow disables the local ./mlruns file store unless explicitly allowed.
+os.environ.setdefault("MLFLOW_ALLOW_FILE_STORE", "true")
+
 try:  # pragma: no cover
     import mlflow
     import mlflow.sklearn
