@@ -12,6 +12,7 @@ permissions:
 env:
   PYTHON_VERSION: "3.13"
   IMAGE_NAME: heart-disease-api
+  MLFLOW_ALLOW_FILE_STORE: "true"
 
 jobs:
   lint:
