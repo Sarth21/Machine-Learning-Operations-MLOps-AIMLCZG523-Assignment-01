@@ -107,16 +107,22 @@ class Tracker:
         if self.backend == "mlflow" and not _HAS_MLFLOW:
             raise RuntimeError("HEART_TRACKING_BACKEND=mlflow but mlflow is not installed")
         self.experiment = experiment
+        self._stack = []
         if self.backend == "mlflow":
             uri = tracking_uri or os.getenv("MLFLOW_TRACKING_URI") or C.MLRUNS_DIR.as_uri()
-            mlflow.set_tracking_uri(uri)
-            mlflow.set_experiment(experiment)
-            self.uri = uri
-        else:
+            try:
+                mlflow.set_tracking_uri(uri)
+                mlflow.set_experiment(experiment)
+                self.uri = uri
+            except Exception as exc:  # noqa: BLE001
+                if forced == "mlflow":
+                    raise
+                log.warning("MLflow tracking store unavailable (%s); using the local file tracker", exc)
+                self.backend = "local"
+        if self.backend == "local":
             self.root = Path(tracking_uri or (C.ROOT / "mlruns_local")) / experiment
             self.root.mkdir(parents=True, exist_ok=True)
             self.uri = str(self.root)
-        self._stack = []
 
     @contextmanager
     def run(self, name, nested=False, tags=None):
